@@ -6,7 +6,7 @@ function getCurrentYear() {
 const getFooterCopy = (isIndex) => {
     if (isIndex) {
         const str = "<strong>Holberton School</strong>";
-        return <span dangerouslySetInnerHTML={{__html:str}} />;
+        return <span dangerouslySetInnerHTML={{ __html: str }} />;
     } else {
         const str = "<strong>Holberton School main dashboard</strong>";
         return <span dangerouslySetInnerHTML={{ __html: str }} />;
